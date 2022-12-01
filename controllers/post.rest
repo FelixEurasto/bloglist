@@ -1,0 +1,12 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjYzN2NlZTRlOTlkNThlNjU3MzE0ODk5NyIsImlhdCI6MTY2OTY0OTgzM30.3IcerhuXNbiRINOAdj8pphrtJ_KP0v6tyHn83NVqFkI
+
+{
+    "title": "tokentest",
+    "author": "minä",
+    "url": "this/shit",
+    "likes": 20,
+    "user": "637cab2e8cdb52b2227fcd09"
+}
+
